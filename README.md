@@ -1,61 +1,26 @@
-## ✨ Core Features
+# 🛒 Modern Full-Stack Point of Sale (POS) System
 
-### 📊 Dashboard & Analytics
-- **Real-Time KPI Cards:** Instant metrics for gross revenue, net profit, total orders, and average order value (AOV).
-- **Interactive Visualizations:** Sales velocity charts, peak-hour sales heatmaps, and category breakdown.
-- **Top Performers:** Track best-selling items and low-stock warnings at a glance.
+<div align="center">
 
-### 💳 Transaction & Checkout Engine
-- **Flexible Payments:** Support for Cash, Cards, Digital Wallets, and Split payments.
-- **Dynamic Promo Codes:** Apply percentage or fixed-amount discounts with instant validation.
-- **Smart Cash Calculator:** Automatic tendered cash change calculations to eliminate manual errors.
-- **Full Refund Flow:** Quick refund processing with automatic inventory restocking and ledger updates.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
-### 📦 Product Inventory & Margin Analysis
-- **Live Profit Margins:** Real-time calculation of markup percentage and gross profit margin on every product update.
-- **Barcode / SKU Support:** Fast lookup and instant cart insertion via keyboard scanner or search.
-- **Stock Threshold Alerts:** Automatic alerts when inventory falls below minimum restock triggers.
+<p align="center">
+  <strong>A high-performance Full-Stack POS & Retail Management Suite with Express REST API & Persistent SQLite Database.</strong>
+</p>
 
-### 👥 Customer Management
-- **Customer Profiles:** Capture contact details, tier status, and total lifetime spend.
-- **Purchase History Ledger:** Complete audit trail of past orders, invoices, and returns per customer.
+[✨ Live Demo](#) • [🚀 Quick Start](#-getting-started) • [📖 Documentation](#-core-features) • [⌨️ Shortcuts](#️-keyboard-shortcuts--quick-tips)
 
----
-
-## 🛠️ Tech Stack & Architecture
-
-| Layer | Technologies |
-| :--- | :--- |
-| **Frontend Framework** | [React 18+](https://react.dev/) with Functional Components & Hooks |
-| **Type Safety** | [TypeScript](https://www.typescriptlang.org/) for robust static analysis |
-| **Build Tooling** | [Vite](https://vitejs.dev/) for instant HMR and optimized production bundles |
-| **Styling** | [Tailwind CSS](https://tailwindcss.com/) for fluid, utility-first UI design |
-| **Animations** | [Framer Motion](https://www.framer.com/motion/) for fluid transitions & micro-interactions |
-| **Icons** | [Lucide React](https://lucide.dev/) for clean, consistent UI iconography |
-| **Data Persistence** | Browser `localStorage` with seeded deterministic demonstration data |
+</div>
 
 ---
 
-## 📁 Project Structure
+## 🌟 Overview
 
-```bash
-pos-system/
-├── public/                     # Static assets & icons
-├── src/
-│   ├── assets/                 # SVGs, images, and brand assets
-│   ├── components/             # Reusable UI components
-│   │   ├── common/             # Buttons, Modals, Inputs, Badges
-│   │   ├── dashboard/          # Metrics cards, Chart widgets
-│   │   ├── pos/                # Cart drawer, Product grid, Numpad
-│   │   └── inventory/          # Stock table, Margin calculator modal
-│   ├── context/                # Global state (Cart, Auth, Theme, Settings)
-│   ├── hooks/                  # Custom hooks (useKeyboard, useLocalStorage)
-│   ├── types/                  # TypeScript interface declarations
-│   ├── utils/                  # Currency formatters, seed data, math helpers
-│   ├── App.tsx                 # Root application routing & layout
-│   └── main.tsx                # Entry point
-├── index.html                  # HTML template
-├── tailwind.config.js          # Tailwind styling configuration
-├── tsconfig.json               # TypeScript compiler config
-├── vite.config.ts              # Vite configuration
-└── package.json                # Dependencies & scripts
+The **Modern Point of Sale System** is a robust full-stack retail management platform. Engineered with a **React + Vite** frontend and an **Express.js + SQLite** backend, it ensures ACID-compliant data persistence, ultra-low latency transaction processing, inventory margin tracking, and actionable analytics.
